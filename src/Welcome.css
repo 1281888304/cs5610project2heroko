@@ -1,0 +1,25 @@
+
+.link-container {
+    height: 100%;
+    margin: 0;
+    padding-top: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.link {
+    transition: all .4s ease-in-out;
+    color: darkgrey;
+    text-decoration: none;
+}
+.link:hover {
+    color: orange;
+}
+
+h3:link {color:#FFFAFA;}      /* unvisited link */
+h3:visited {color:#FFFAFA;}  /* visited link */
+.flexbox-container > h3:hover {color:#FFFAFA;}  /* mouse over link */
+h3:active {color:#FFFAFA;}  /* selected link */
