@@ -28,25 +28,13 @@ export function SingleBoard(props){
         }
 
         return (
-            <div onClick={() => dispatch(
-            {
-                type: 'boardClick',
-                x: props.x,
-                y: props.y,
-            }
-        )} id="singleBoard" className={blockStyle}>
+            <div id="singleBoard" className={blockStyle}>
             {"\u{2713}"}
         </div>);
     }
 
     if (symbol === 'ul') {
-        return (<div onClick={() => dispatch(
-            {
-                type: 'boardClick',
-                x: props.x,
-                y: props.y,
-            }
-        )} id="singleBoard" className={blockStyle}>
+        return (<div id="singleBoard" className={blockStyle}>
             {"X"}
         </div>);
     }
@@ -60,7 +48,7 @@ export function SingleBoard(props){
                     x: props.x,
                     y: props.y,
                 }
-            )} id="singleBoard" className={blockStyle}>
+            )}id="singleBoard" className={blockStyle}>
                 {}
             </div>);
         }
@@ -71,7 +59,7 @@ export function SingleBoard(props){
                 x: props.x,
                 y: props.y,
             }
-        )} id="singleBoard" className={blockStyle}>
+        )} id="singleBoard" id="singleBoard" className={blockStyle}>
             {}
             <div id={"dot"} className={"dot"}>
             </div>

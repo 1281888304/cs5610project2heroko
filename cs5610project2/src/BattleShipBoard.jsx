@@ -108,13 +108,13 @@ export default function BattleShipBoard(){
             <MyNavBar/>
             <div className="flexbox-container">
             <div className="flexbox-container2">
-                <h2>BattleShip game</h2>
+                <h2>BattleShip</h2>
                 
-                <h2>User term</h2>
+                <h2>User</h2>
                 <div id="battleShipBlock" >{boardComponent}</div>
             </div>
             <div className="flexbox-container3">
-                <h2>Enemy terms</h2>
+                <h2>Computer</h2>
                 <div id="enemy">{enemyBoardComponent}</div>
 
             </div>
